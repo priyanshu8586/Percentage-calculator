@@ -15,7 +15,7 @@ f=int(input("Physical education:"))
 
 print("Marks percentage:",(a+b+c+d+e+f)/6,"%")
 
-# if (a+b+c+d+e+f)/6 < 33:
-#     print("Fail")
-# else:
-#     print("Pass")
+if (a+b+c+d+e+f)/6 < 33:
+  print("Fail")
+ else:
+   print("Pass")
